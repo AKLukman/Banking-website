@@ -8,4 +8,5 @@ document.getElementById('login-submit').addEventListener('click', function () {
     if (userEmail == 'abc@gmail.com' && userPass == '123456') {
         window.location.href = 'banking.html';
     }
-})
+});
+

@@ -11,7 +11,7 @@
 
 <body>
     <header>
-        <h1 class="text-5xl text-center mt-14">Let's get some <span class="font-semibold text-red-600">mooooney!</span>
+        <h1 class="text-5xl text-center mt-14">Let's get some <span class="font-semibold text-red-600">money!</span>
         </h1>
     </header>
     <main class="w-3/4 mx-auto">
@@ -23,15 +23,15 @@
 
                 <div class="bg-blue-300 p-8 rounded ">
                     <h1 class="text-2xl">Deposite</h1>
-                    <h4 class="text-4xl font-bold">$00</h4>
+                    <h4 class="text-4xl font-bold">$<span id="diposit-total">00</span></h4>
                 </div>
                 <div class="bg-green-300 p-8 rounded ">
                     <h1 class="text-2xl">Withdraw</h1>
-                    <h4 class="text-4xl font-bold">$00</h4>
+                    <h4 class="text-4xl font-bold">$<span id="withdraw-balance">00</span></h4>
                 </div>
                 <div class="bg-yellow-300 p-8 rounded">
                     <h1 class="text-2xl">Belance</h1>
-                    <h4 class="text-4xl font-bold">$12400</h4>
+                    <h4 class="text-4xl font-bold">$<span id="balence">1200</span></h4>
                 </div>
 
 
@@ -70,6 +70,8 @@
             </div>
         </section>
     </main>
+
+    <script src="js/banking.js"></script>
 </body>
 
 </html>
